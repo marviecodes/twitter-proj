@@ -197,6 +197,10 @@ header {
   color: #333;
 }
 
+.nav-open .icon-mobile-nav {
+  color: #fff;
+}
+
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
@@ -243,7 +247,8 @@ header {
   }
 
   .main-nav {
-    background: wheat;
+    background: black;
+    color: #fff;
     position: absolute;
     top: 0;
     left: 0;
@@ -279,6 +284,7 @@ header {
 
   .main-nav-link {
     font-size: 30px;
+    color: #fff;
   }
 
   .btn-mobile-nav {
