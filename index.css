@@ -205,6 +205,14 @@ header {
   display: none;
 }
 
+.nav-open .icon-mobile-nav[name="close-outline"] {
+  display: block;
+}
+
+.nav-open .icon-mobile-nav[name="menu-outline"] {
+  display: none;
+}
+
 /* Tablet */
 @media (max-width: 1073px) {
   .hero-section h2 {
